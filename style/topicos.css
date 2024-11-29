@@ -1,5 +1,6 @@
 .topicos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2rem;
@@ -25,8 +26,8 @@
 }
 
 .topico img {
-  width: 18rem;
-  height: 18rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .topico p {
