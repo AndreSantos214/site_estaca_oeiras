@@ -74,4 +74,43 @@
     font-size: 1.8rem; 
   }
 }
+
+@media (max-width: 480px) {
+  .topicos {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1rem; 
+    max-width: 50%;
+    margin-top: 2rem;
+  }
+  .topico img {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .topico p {
+    text-align: center;
+    font-weight: bold;
+    padding: 1.5rem 1rem;
+  }
+
+  .d p {
+    padding: 0.5rem 1rem;
+  }
+
+  .hero-content {
+    margin-top: 3rem;
+    margin-left:2rem;
+  }
+
+  .titulo {
+    font-size: 4rem; /* Telas muito pequenas */
+  }
+
+  .texto-titulo {
+    font-size: 1.6rem;
+  }
+}
   
