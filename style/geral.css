@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: #404040;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+}

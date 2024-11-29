@@ -1,0 +1,11 @@
+/* GERAL */
+@import url("./geral.css");
+
+/* CABEÇALHO */
+@import url("./header.css");
+
+/* HERO */
+@import url("./hero.css");
+
+/* TOPICOS */
+@import url("./topicos.css");

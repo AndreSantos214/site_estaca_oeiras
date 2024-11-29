@@ -1,0 +1,68 @@
+.hero {
+  height: 100vh;
+  background-image: url('../img/hero.png');
+  background-size: cover; 
+  background-position: center;
+  display: flex; 
+  align-items: center; /* Centraliza verticalmente */
+  color: white; /* Cor do texto */
+}
+
+.hero-content {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  margin-left: 10rem;
+}
+
+.titulo {
+  font-size: 6.4rem;
+  font-weight: 100;
+}
+
+.texto-titulo {
+  font-size: 2.4rem;
+}
+
+.hero-botao {
+  background-color: #007fa3;
+  padding: 2rem;
+  border-radius: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.hero-botao:hover {
+  background-color: #005f7a; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.botao-hero {
+  margin-top: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .hero {
+    height: 50vh; /* Reduz a altura para dispositivos menores */
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
