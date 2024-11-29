@@ -19,6 +19,9 @@
     transform: scale(1.05);
   }
 }
+.hamburguer {
+  display: none;
+}
 
 .topico {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
@@ -40,3 +43,35 @@
   padding: 10px;
 }
 
+@media (max-width: 1024px) {
+  .topicos {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 2rem; 
+    max-width: 50%;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+
+  .hamburguer {
+    display: flex;
+    margin-right: 3rem;
+    width: 4rem;
+  }
+
+  .titulo {
+    font-size: 4.8rem; 
+  }
+
+  .texto-titulo {
+    font-size: 1.8rem; 
+  }
+}
+  

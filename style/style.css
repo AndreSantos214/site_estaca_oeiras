@@ -1,6 +1,9 @@
 /* GERAL */
 @import url("./geral.css");
 
+/* RESPONSIVIDADE */
+@import url("./responsividade.css");
+
 /* CABEÇALHO */
 @import url("./header.css");
 
