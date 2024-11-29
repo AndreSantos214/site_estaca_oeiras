@@ -2,9 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
   margin-top: 2rem;
   margin-bottom: 50rem;
+  max-width: 100%;
+  
 
   & a {
     text-decoration: none;
@@ -23,8 +25,8 @@
 }
 
 .topico img {
-  width: 20rem;
-  height: 20rem;
+  width: 18rem;
+  height: 18rem;
 }
 
 .topico p {
